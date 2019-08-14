@@ -30,14 +30,13 @@ useEffect(() => {
 
     <h1>{spaceImage.title}</h1>
     <div> {spaceImage.date}</div>
-    <p> {spaceImage.explanation}</p> 
-    <div> {spaceImage.media_type}</div> 
-    <div> {spaceImage.service_version}</div> 
 
     {/* <img className="Moon-image" alt="Moon and saturn" src={spaceImage.hdurl} />   */}
     <Image 
     test = {spaceImage}/> 
-    
+     <p> {spaceImage.explanation}</p> 
+    <div> {spaceImage.media_type}</div> 
+    <div> {spaceImage.service_version}</div> 
     
     
 
