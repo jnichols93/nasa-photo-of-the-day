@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin: 3%;
+  border:1px solid white;
+  border-radius: 3%;
 }
 
 .App-logo {
@@ -39,7 +42,7 @@
 }
 .bottom-content{
   background-color: #ffffff;
-  border:1px solid #282c34;
+  padding-top:2%;
 
 }
 @keyframes App-logo-spin {

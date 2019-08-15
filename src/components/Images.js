@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Image} from 'semantic-ui-react'
 
 
 
@@ -9,7 +9,7 @@ const Images = props => {
       
        <div>
 
-        <img className="Moon-image" alt="Moon and saturn" src={props.test.hdurl}  />
+        <Image className="Moon-image" alt="Moon and saturn" src={props.test.hdurl} fluid  />
              
 
        </div>
