@@ -23,7 +23,11 @@
   color: #61dafb;
 }
 .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #E1E1E1;
+  max-width: 100%;
 }
 .logo{
   display:flex;
@@ -31,6 +35,12 @@
   justify-content: flex-start;
   background-color: #282c34;
   color:white;
+
+}
+.bottom-content{
+  background-color: #ffffff;
+  border:1px solid #282c34;
+
 }
 @keyframes App-logo-spin {
   from {

@@ -15,7 +15,7 @@ export default function  Body() {
 
 useEffect(() => {
     axios
-      .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+      .get(`https://api.nasa.gov/planetary/apod?api_key=zocLXAmxDhk20goWCEhlCKeS5j14SRcqdEzYt6wi`)
       .then(response => {
         const test = response.data;
         console.log("Response", test);
@@ -31,16 +31,12 @@ useEffect(() => {
     <h1>{spaceImage.title}</h1>
     <div> {spaceImage.date}</div>
 
-    {/* <img className="Moon-image" alt="Moon and saturn" src={spaceImage.hdurl} />   */}
-    <Image 
-    test = {spaceImage}/> 
+    <Image test = {spaceImage}/> 
+    <section className ="bottom-content">
      <p> {spaceImage.explanation}</p> 
     <div> {spaceImage.media_type}</div> 
     <div> {spaceImage.service_version}</div> 
-    
-    
-
-
-    </div>
+    </section>
+  </div>
   );
 }
